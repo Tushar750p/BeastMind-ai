@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract audio waves and sound spectrum",
+      "imageUrl": "https://picsum.photos/seed/music1/1200/600",
+      "imageHint": "audio waves"
+    },
+    {
+      "id": "studio-vibes",
+      "description": "Dark recording studio atmosphere",
+      "imageUrl": "https://picsum.photos/seed/music2/800/600",
+      "imageHint": "recording studio"
+    }
+  ]
+}

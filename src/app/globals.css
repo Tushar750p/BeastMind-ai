@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Electric Violet Primary: #9747FF */
+    --primary: 266 100% 64%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Deep Charcoal Background: #0F0E13 */
+    --background: 247 15% 6%;
+    --foreground: 0 0% 98%;
+    
+    --card: 247 15% 10%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 247 15% 8%;
+    --popover-foreground: 0 0% 98%;
+    
+    --secondary: 247 10% 15%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 247 10% 15%;
+    --muted-foreground: 240 5% 65%;
+    
+    /* Deep Ocean Blue Accent: #0094FF */
+    --accent: 205 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 247 10% 20%;
+    --input: 247 10% 20%;
+    --ring: 266 100% 64%;
+    
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+/* Custom visualizer animation stagger */
+.wave-bar:nth-child(1) { animation-delay: 0.1s; }
+.wave-bar:nth-child(2) { animation-delay: 0.2s; }
+.wave-bar:nth-child(3) { animation-delay: 0.3s; }
+.wave-bar:nth-child(4) { animation-delay: 0.4s; }
+.wave-bar:nth-child(5) { animation-delay: 0.2s; }
+.wave-bar:nth-child(6) { animation-delay: 0.5s; }
+.wave-bar:nth-child(7) { animation-delay: 0.1s; }
+.wave-bar:nth-child(8) { animation-delay: 0.3s; }
